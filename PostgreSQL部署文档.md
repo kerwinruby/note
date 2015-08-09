@@ -5,11 +5,13 @@
  - 当一台电脑坏掉时，数据不会丢失。
  - salve利用本机资源、避免master主机的负载。
  - salve只能只读操作、避免更改数据库。
+
 #### 1.2. 准备环境
  - linux : centOS6.6
  - master ip：192.168.33.10
  - salve ip：194.168.33.11（slave可设多个）
  - postgreSQL: 9.4.4
+
 ###2. 步骤
 ####2.1. 安装postgreSQL(master、slave)
     sudo yum install -y http://yum.postgresql.org/9.4/redhat/rhel-6-x86_64/pgdg-centos94-9.4-1.noarch.rpm
